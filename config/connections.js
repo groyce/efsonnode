@@ -53,9 +53,9 @@ OpenshiftsqlServer: {
      adapter: 'sails-mysql',
      host: process.env.OPENSHIFT_MYSQL_DB_HOST,
      port: process.env.OPENSHIFT_MYSQL_DB_PORT,
-     user: 'adminhrbrRGr', //optional
-     password: 'WKtCMRgZfS4-', //optional
-     database: 'efsnodejs' //optional
+     user: 'admineVMvzhA', //optional
+     password: 'Yv2Eh2iPRrZW', //optional
+     database: 'efsonnodejs' //optional
    },
 
   /***************************************************************************
