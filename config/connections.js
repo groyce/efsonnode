@@ -49,6 +49,15 @@ module.exports.connections = {
      database: 'efs2' //optional
    },
 
+OpenshiftsqlServer: {
+     adapter: 'sails-mysql',
+     host: process.env.OPENSHIFT_MYSQL_DB_HOST,
+     port: process.env.OPENSHIFT_MYSQL_DB_PORT,
+     user: 'adminhrbrRGr', //optional
+     password: 'WKtCMRgZfS4-', //optional
+     database: 'efsnodejs' //optional
+   },
+
   /***************************************************************************
   *                                                                          *
   * MongoDB is the leading NoSQL database.                                   *
