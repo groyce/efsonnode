@@ -1,0 +1,9 @@
+<form action="/stock/update/<%= stock.id%>" method="POST" >
+<h2> Create a Stock</h2>
+
+<input value="<%= stock.id %>"type="text" name="id" ><br/>
+<input value="<%= stock.symbol %>"type="text" name="symbol" ><br/>
+<input value="<%= stock.number_of_shares %>"type="text" name="number_of_shares" ><br/>
+<input value="<%= stock.price %>"type="text" name="price" ><br/>
+<input type="submit" value="Edit Stocks" ><br/>
+</form>

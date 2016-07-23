@@ -1,0 +1,9 @@
+<form action="/investment/create" method="POST" >
+  <h2>Create a new Investment for <%= customer.name %></h2>
+
+  <input type="hidden" name="owner" value="<%- customer.id %>" />
+
+  <input type="text" placeholder="invst" name="invst" ><br />
+  <input type="text" placeholder="Details" name="details" ><br />
+  <input type="submit" value="Add Investment" />
+</form>
